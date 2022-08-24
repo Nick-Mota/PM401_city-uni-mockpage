@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM401 Mock Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/4e16a4143b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"> <img src="images/horizontal_on_white_by_logaster.png" alt="logo"></li>
+          <li class="mobile"><a href="#">All Locations</a></li>
+          <li class="mobile"><a href="#">Vacation Packages</a></li>
+          <li><a href="#" class="signup">Sign-Up</a></li> 
+          <li><a href="#" class="signup">Log-in</a></li> 
+        </ul>
+      </nav>
+
+      <div class="page-title">
+        <h1> Dream vacations that set sail to new adventures and explorations</h1>
+        <p>Book a cruise or long stay land vacation with us today!</p>
+      </div>
+
+      <div class="input-wrap">
+        <div><i class="fas fa-map-marker-alt" id="mapcon"></i></div>
+        <input type="text" placeholder="Marseille, France">
+        <button class="search-btn">Search</button>
+      </div>
+      
+      <section class="section_filters">
+        <h2>Fine tune your adventure</h2>
+        <div class="filter-wrap">
+          <button class="filter-btn">
+            <i class="fas fa-money-bill-wave buffer"></i>
+            <span class="filler">Low cost</span>
+          </button>
+
+          <button class="filter-btn">
+            <i class="fas fa-child buffer"> </i>
+            <span class="filler">Family-friendly</span>
+          </button>
+
+          <button class="filter-btn">
+            <i class="fas fa-heart buffer"></i>
+            <span class="filler">Romantic</span>
+          </button>
+
+          <button class="filter-btn">
+            <i class="fa-solid fa-ship buffer"></i>
+            <span class="filler">Cruise</span>
+          </button>
+
+          <button class="filter-btn">
+            <i class="fa-solid fa-plane-departure buffer"></i>
+            <span class="filler">Flight</span>
+          </button>
+          
+
+          <button class="filter-btn">
+            <i class="fas fa-dog buffer"></i>
+            <span class="filler">Pets allowed</span>
+          </button>
+        </div>
+      </section>
+
+      <div id="infotext">
+        <i class="fas fa-info" id="info"></i>
+        <span>More than 3000 cities across 215+ countries and thousands more to do in activities, including several premade or customizable combo packages!</span>
+      </div>
+    </header>
+
+    <main>
+      <div class="top-sections">
+        
+        <section class="section__most-pop">
+          <h2>Popular Activity Packages</h2><i class="fa-regular fa-chart-line-up"></i>
+          <div class="section__pop-wrap">
+            <a href="#" class="section__card-pop">
+              <div class="pop-ani-wrap">
+                <div class="content-pop">
+                  <h3 class="section__card-name">A La Carte</h3>
+                  <p class="section__description" id="desc-alt"> A simple way to not go over budget and still conquer your spirit o adventure! Still, want to book adventures but not through us? A great option for self-booking explorations at your destination, no need to book with us...but we would guarantee you fun if you book through us. <strong> Starting at $45+($30 service fee per activity included)</strong></p>
+                  <div id="pop-star-1"><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i></div>
+                </div>
+              </div>
+            </a>
+          
+
+            <a href="#" class="section__card-pop">
+              <div class="pop-ani-wrap">
+                <div class="content-pop">
+                  <h3 class="section__card-name">A Feast 4 Captins</h3>
+                  <p class="section__description">Ahoy me maties! With this package you find the ultimate fun for your stay with 3 fun action-packed, fun-filled activities of your choosing and one surprise activity we've prepared for a grand total of four activities.<strong>Starting at $120+($28 service fee  per activity included)</strong></p>
+                  <div id="pop-star-2"><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i></div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="section__card-pop">
+              <div class="pop-ani-wrap">
+                <div class="content-pop">
+                  <h3 class="section__card-name">Sail the 7 Seas</h3>
+                  <p class="section__description">Ye be ruler of the seven seas! With this package, you get seven actives, 2 selected by us and 5 chosen by you. Opt for an 8th and get the whole package for 7% off the total price!! <strong>Starting at $200+($26 service fee included)</strong></p>
+                  <div id="pop-star-3"><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="far fa-star whitestar"></i></div>
+                </div>
+              </div>
+              
+            </a>
+          </div>
+        </section>
+      
+        <section class="section__accom">
+          <h2>Most Popular Cities to Fly Into this Season</h2>
+          <div class="section__card-wrap">
+            <a href="#" class="section__card">
+              <img src="images/Bali.jpg" alt="Bali" class="acom-img">
+              <div class="content">
+                <h3 class="section__card-name">Bali, Indonesia</h3>
+                <p class="section__description">Connect with nature and set sights upon magnificent temples and mysterious beaches</p>
+                <div class="star-item blustar"><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i></div>
+              </div>
+            </a>
+  
+            <a href="#" class="section__card">
+              <img src="images/Madrid.jpg" alt="Madrid" class="acom-img">
+              <div class="content">
+                <h3 class="section__card-name">Madrid, Spain</h3>
+                <p class="section__description">Experiance romance, futbal, siestas in the exciting heart of Spain</p>
+                <div><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"><i class="far fa-star whitestar"></i></i></div>
+              </div>
+            </a>
+  
+            <a href="#" class="section__card">
+              <img src="images/Kyoto.jpg" alt="Kyoto"  class="acom-img">
+              <div class="content">
+                <h3 class="section__card-name">Kyoto, Japan</h3>
+                <p class="section__description">Where tradition and mondernization meet halfway for new cultural experiances</p>
+                <div><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="far fa-star far2"></i><i class="far fa-star far2"></i></div>
+              </div>
+            </a>
+  
+            <a href="#" class="section__card">
+              <img src="images/Copenhagen.jpg" alt="Copenhagen"  class="acom-img">
+              <div class="content">
+                <h3 class="section__card-name">Copenhagen, Denmark</h3>
+                <p class="section__description">Experiance Denmark's underground bars, world-class dining, and an entry to the world of the arts</p>
+                <div><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"><i class="far fa-star whitestar"></i></i></div>
+              </div>
+            </a>
+  
+            <a href="#" class="section__card">
+              <img src="images/Athens.jpg" alt="Athens"  class="acom-img">
+              <div class="content">
+                <h3 class="section__card-name">Athens, Greece</h3>
+                <p class="section__description">The ancient methological gods, ancient history, and great food, what philosopher would past this place up?</p>
+                <div><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"></i><i class="fas fa-star blustar"><i class="far fa-star whitestar"></i></i></div>
+              </div>
+            </a>
+
+          </div>
+          
+          <a href="#"><h3 id="show">Show more</h3></a>
+        </section>
+      </div>
+
+      <section class="section__activ">
+        <h2 class="activ__title"> Popular Cruises this Season</h2>
+          
+        <div class="activ__wrap">
+            <a class="activ__card">
+              <img src="images/Bahamas.jpg" alt="Baha" class="activ__img--large">
+              <h3 class="activ__title--card tall">5 Night Wonder to the Bahamas</h3>
+            </a>
+
+
+            <div class="activ__wrap--stack">
+              <a class="activ__card">
+                <img src="images/Fantasia.jpg" alt="Pomegues Fort" class="activ__card--topleftstack">
+                <h3 class="activ__title--card">Istanbul Journey 25 Days and back
+                </h3>
+              </a>
+              
+              <a class="activ__card">
+                <img src="images/Coral Princess.jpg" alt="Frioul Island" class="activ__card--bottomleftstack">
+                <h3 class="activ__title--card">60 Nights around the World</h3>
+              </a>
+            </div>
+            
+
+            <a class="activ__card">
+              <img src="images/Caribbean.jpg" alt="Calanques National Park" class="activ__img--large">
+              <h3 class="activ__title--card">6 Days of Caribbean Magic</h3>
+            </a>
+
+            <div class="activ__wrap--stack">
+              <a class="activ__card">
+                <img src="images/Panama.jpg" alt="" class="activ__card--toprightstack">
+                <h3 class="activ__title--card">20 Panama Canal Nights</h3>
+              </a>
+              
+              <a class="activ__card">
+                <img src="images/Hawaii.jpg" alt="" class="activ__card--bottomrightstack">
+                <h3 class="activ__title--card">3 Day Hawaii Get-away</h3>
+              </a>
+            </div>
+          </div>
+      </section>
+    </main>
+  
+    <footer>
+        <a href="">
+          <ul class="ending">
+            <li class="b">About</li>
+            <li>Site Map</li>
+            <li>General Terms and Conditions</li>
+            <li>Data and Privacy</li>
+          </ul>
+        </a>
+        <a href="">
+          <ul class="ending">
+            <li class="b">Our Accommodations</li>
+            <li>Quality Assessment</li>
+            <li>You have a hotel?</li>
+          </ul>
+        </a>
+        <a href="">
+          <ul class="ending">
+            <li class="b">Assistance</li>
+            <li>Help desk</li>
+            <li>Contact Us</li>
+          </ul>
+        </a>
+    </footer>
+  </body>
+</html>
